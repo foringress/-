@@ -1,10 +1,12 @@
+编写过程:
+
 if douban_nickname in check_response_text.text:成功    else:失败
 
 使用豆瓣ID判断是否登陆成功
 
 当然用requests.Session().get.text的文本
 
-目前是失败的
+失败
 
 于是怀疑是不是post环节出了问题
 post=session.post(url=login_post_url, data=login_form_data, headers=headers)
